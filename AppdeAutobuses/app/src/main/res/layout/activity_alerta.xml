@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="0dp"
+    tools:context=".AlertaActivity">
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:id="@+id/titulo"
+        android:text="GENERAR ALERTA CON \nUBICACION EXACTA"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:textSize="30dp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:text="@string/ubicacion_exacta_a_enviar"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:textAlignment="center"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:hint="@string/mi_ubicacion"
+        android:textSize="18sp"
+        android:id="@+id/txtReporte"/>
+    <ImageButton
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/balerta"
+        android:id="@+id/botonalerta"/>
+
+</LinearLayout>

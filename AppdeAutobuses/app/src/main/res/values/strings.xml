@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">AppdeAutobuses</string>
+    <string name="open" />
+    <string name="close" />
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="home">Home</string>
+    <string name="historial_de_viajes">Historial de viajes</string>
+    <string name="viaje_en_curso">Viaje en curso</string>
+    <string name="generar_reporte">Generar reporte</string>
+    <string name="incidentes">Incidentes</string>
+    <string name="viajes">Viajes</string>
+    <string name="informacion_general">Informacion general</string>
+    <string name="configuracion">Configuracion</string>
+    <string name="alerta">Alerta</string>
+    <string name="informacion_acerca_del_conductor_nombre_edad_blablaasdadadadasdada">Informacion acerca del conductor, nombre, edad blablaasdadadadasdada</string>
+    <string name="stringconductor">info acerca del conductor</string>
+    <string name="stringinfocntral">central de autobuses de tepic</string>
+    <string name="regresar">Regresar</string>
+    <string name="btngenerar_reporte">Generar Reporte</string>
+    <string name="hintcoordenada">0.00 , 0.00</string>
+    <string name="textview_descriaccidente">Descripción del incidente:</string>
+    <string name="textview_generarreporte">Generar Reporte</string>
+    <string name="textview_id_reporte">ID Reporte:</string>
+    <string name="editTexthint_reporte">KHFJS_ID_REPORTE</string>
+    <string name="textview_id_viaje">ID Viaje:</string>
+    <string name="editText_hint_viaje">KHFJS_ID_VIAJE</string>
+    <string name="textview_tipo_de_incidente">Tipo de incidente:</string>
+    <string name="editText_hint_escriba_el_incidente">Escriba el incidente</string>
+    <string name="textView_mi_ubicacion">Mi ubicación:</string>
+    <string name="editText_hintdescripcionaccidente">Describa que sucedió</string>
+    <string name="descipimg" />
+    <string name="actualizar_viajes">Actualizar viajes</string>
+    <string name="detallesviaje">Detalles del viaje</string>
+    <string name="mi_ubicacion">Mi ubicacion</string>
+    <string name="ubicacion_exacta_a_enviar">Ubicacion exacta a enviar:</string>
+</resources>

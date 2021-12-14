@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".HistorialViajesActivity"
+    android:padding="10dp"
+    android:backgroundTint="@color/fondo"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textview_titulo_historialviajes"
+        android:text="@string/historial_de_viajes"
+        android:layout_marginBottom="20dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:textSize="32sp"
+        android:textAlignment="center"
+        />
+
+<!--    <CalendarView-->
+<!--        android:layout_width="365dp"-->
+<!--        android:layout_height="297dp"-->
+<!--        android:background="@color/white" />-->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textview_detalles"
+        android:text="@string/detallesviaje"
+        android:layout_marginBottom="20dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:textSize="32sp"
+        android:textAlignment="center"
+        />
+
+
+
+        <ListView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/listahistorial"/>
+
+
+
+
+</LinearLayout>

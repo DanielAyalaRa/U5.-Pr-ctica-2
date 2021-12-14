@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="30dp"
+    android:background="@drawable/fondo1"
+    tools:context=".GenerarReporte">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:textAlignment="center"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="@string/textview_id_reporte"
+        android:textSize="18sp"
+        android:layout_marginTop="92dp"
+        android:textColor="@color/black"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:textAlignment="center"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:hint="@string/editTexthint_reporte"
+        android:textSize="18sp"
+        android:id="@+id/txtReporte"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:textAlignment="center"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="@string/textview_id_viaje"
+        android:textSize="18sp"
+        android:textColor="@color/black"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:textAlignment="center"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:hint="@string/editText_hint_viaje"
+        android:id="@+id/txtViaje"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:textAlignment="center"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="@string/textview_tipo_de_incidente"
+        android:textSize="18sp"
+        android:textColor="@color/black"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:textAlignment="center"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:hint="@string/editText_hint_escriba_el_incidente"
+        android:id="@+id/txtTipo"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:textAlignment="center"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="@string/textView_mi_ubicacion"
+        android:textSize="18sp"
+        android:textColor="@color/black"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:textAlignment="center"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:hint="@string/hintcoordenada"
+        android:id="@+id/txtUbicacion"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:textAlignment="center"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="@string/textview_descriaccidente"
+        android:textSize="18sp"
+        android:textColor="@color/black" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:textAlignment="center"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:hint="@string/editText_hintdescripcionaccidente"
+        android:id="@+id/txtDescripcion"
+        android:layout_marginBottom="30dp"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btngenerar_reporte"
+        android:textSize="18sp"
+        android:layout_gravity="center"
+        android:id="@+id/btnGenerarR"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/regresar"
+        android:textSize="18dp"
+        android:layout_gravity="center"
+        android:id="@+id/btnRegresar"/>
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:layout_marginBottom="10dp"
+        android:background="@color/white"
+        android:id="@+id/lista"/>
+
+</LinearLayout>

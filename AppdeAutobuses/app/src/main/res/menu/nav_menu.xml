@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+    <group android:checkableBehavior="single">
+
+    <item
+        android:id="@+id/nav_home"
+        android:title="@string/home"
+        />
+
+    <item
+        android:id="@+id/nav_infogeneral"
+        android:title="@string/informacion_general"
+
+        />
+        <item
+            android:id="@+id/nav_confi"
+            android:title="@string/configuracion"
+            />
+    </group>
+
+    <item android:title="@string/viajes">
+        <menu>
+            <group>
+            <item
+                android:id="@+id/nav_histviajes"
+                android:title="@string/historial_de_viajes"/>
+                <item
+                    android:id="@+id/nav_viajeencurso"
+                    android:title="@string/viaje_en_curso"/>
+        </group>
+        </menu>
+    </item>
+
+    <item android:title="@string/incidentes">
+        <menu>
+            <group>
+            <item
+                android:id="@+id/nav_generarreporte"
+                android:title="@string/generar_reporte"
+                />
+                <item
+                    android:id="@+id/nav_generaralerta"
+                    android:title="@string/alerta"
+                    />
+            </group>
+        </menu>
+    </item>
+</menu>
